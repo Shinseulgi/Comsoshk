@@ -68,11 +68,15 @@ object RecoverableNetworkWordCount {
     }
     val lines = ssc.sparkContext.textFile("/home/hong/sparkEx/protoEx/srcdst")
     //val lines = sc.textFile("/home/sparkEx/protoEx/srcdst")
+
+/*
     val rddQueue : Queue[RDD[String]] = Queue()
     rddQueue += lines
     val dstream = ssc.queueStream(rddQueue)
     dstream.checkpoint(Duration(5000))
     dstream.print()
+*/
+
     /*
     if(lines != null){
       val tokens = lines.map(x => (x.split(" ")(0)+"/"+x.split(" ")(2),x.split(" ")(1))).reduceByKey((x,y) => x+y)
