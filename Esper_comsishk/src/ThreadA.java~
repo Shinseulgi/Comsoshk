@@ -15,7 +15,7 @@ public class ThreadA implements Runnable {
  {
   while(true){
    try {
-	   BufferedReader reader=new BufferedReader(new FileReader("/home/project0323/resultFile"));
+	   BufferedReader reader=new BufferedReader(new FileReader("/home/seulgi/resultFile"));
 	   String line=null;
 	   while((line=reader.readLine())!=null){
 		  String src=line.substring(1,line.indexOf("/")-1);
