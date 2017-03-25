@@ -23,7 +23,7 @@ object RecoverableNetworkWordCount {
     val protoFile = new File("Proto")
     val priFile = new File("Pri")
     val log_IdFile = new File("Log_Id")
-    val srcdstFile = new File("srcdst")
+    //val srcdstFile = new File("/home/hong/sparkEx/protoEx/resultDir/srcdst")
     val resultFile = new File("result")
     if (typeFile.exists()) typeFile.delete()
     if (subTypeFile.exists()) subTypeFile.delete()
@@ -44,29 +44,42 @@ object RecoverableNetworkWordCount {
 
     val logs = ssc.socketTextStream(ip, port)
     val log = logs.flatMap(x=>x.split(" ")).filter(x=>x.contains("=")).map(str=>str.replace("\"","").replace(",","")).map(x=>(x.split("=")(0),x.split("=")(1)))
+
+    //val log_ = logs.map(x=>(x.split(" ")(13).split("=")(1)+"/"+x.split(" ")(27).split("=")(1),x.split(" ")(16).split("=")(1))).collect()
+    val log_ = logs.map(x=>(x.split(" ")(13).split("=")(1)+"/"+x.split(" ")(27).split("=")(1),x.split(" ")(16).split("=")(1)))
+    log_.foreachRDD(_.saveAsSequenceFile("ee"))
+
     val arr : ArrayBuffer[String] = new ArrayBuffer[String]()
     val strArr : ArrayBuffer[String] = new ArrayBuffer[String]()
     val logA = log.filter{case (x,y)=>x=="src"||x=="dst"||x=="proto"}
     val logAdata = logA.map(x=>(x._2))
 
+/*
     logAdata.foreachRDD { (rdd: RDD[String], time: Time) => 
       for(arr <- rdd.collect().toArray){
         if(i.value%3 == 0){
-          println("src : "+arr)
           Files.append(arr, srcdstFile, Charset.defaultCharset())
         }
         else if(i.value%3 == 1){
-          println("dst : "+arr)
           Files.append(" "+arr, srcdstFile, Charset.defaultCharset())
         }
         else{
-          println("proto : "+arr)
           Files.append(" "+arr+"\n", srcdstFile, Charset.defaultCharset())
         }
         i += 1;
       }
     }
-    val lines = ssc.sparkContext.textFile("/home/hong/sparkEx/protoEx/srcdst")
+*/
+/*
+    val lines = ssc.sparkContext.textFile("/home/hong/sparkEx/protoEx/resultDir/srcdst")
+    val tokens = lines.map(x => (x.split(" ")(0)+"/"+x.split(" ")(2),x.split(" ")(1))).distinct().reduceByKey((x,y) => x+"+"+y)
+    val str = tokens.collect().mkString(" ")
+    Files.append(str, resultFile, Charset.defaultCharset())
+  */
+  
+    //val lines = ssc.sparkContext.textFile("/home/hong/sparkEx/protoEx/resultDir/srcdst")
+    val lines = ssc.textFileStream("/home/hong/sparkEx/protoEx/ee")
+    
     //val lines = sc.textFile("/home/sparkEx/protoEx/srcdst")
 
 /*
@@ -77,18 +90,33 @@ object RecoverableNetworkWordCount {
     dstream.print()
 */
 
-    /*
-    if(lines != null){
-      val tokens = lines.map(x => (x.split(" ")(0)+"/"+x.split(" ")(2),x.split(" ")(1))).reduceByKey((x,y) => x+y)
+    
+    //if(lines != null){
+    //val tokens = lines.map(x => (x.split(" ")(0)+"/"+x.split(" ")(2),x.split(" ")(1))).transform(rdd=>rdd.distinct()).reduceByKey((x,y) => x+"+"+y)
 
-      tokens.foreachRDD { (rdd: RDD[(String,String)], time: Time) => 
+
+    lines.foreachRDD { (rdd: RDD[String], time: Time) => 
+      val tokens = rdd.map(x => (x.split(" ")(0)+"/"+x.split(" ")(2),x.split(" ")(1))).distinct().reduceByKey((x,y) => x+"+"+y)
+      val str = tokens.collect().mkString(" ")
+      Files.append(str, resultFile, Charset.defaultCharset())
+      println("---------------------------------------"+str)
+    }
+
+/*
+      val str = tokens.collect().mkString(" ")
+      Files.append(str+"\n", resultFile, Charset.defaultCharset())
+      println("---------------------------------------")
+*/
+/*
+      tokens.foreach { rdd => 
         val str = rdd.collect().mkString(" ")
         Files.append(str, resultFile, Charset.defaultCharset())  
         //rdd.collect().foreach(println) X
         println("---------------------------------------")
       }
-    }
 */
+//    }
+
     val logIdConvert = log.filter(x=>x._1.contains("log_id")).map(x=>(x._1,(x._2.toInt%100).toString))
     val logOtherConvert = log.filter{case (x,y)=>x=="type"||x=="subtype"||x=="pri"||x=="status"||x=="service"||x=="proto"}
     val unionLog = logIdConvert.union(logOtherConvert)
