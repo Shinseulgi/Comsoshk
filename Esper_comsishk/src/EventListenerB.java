@@ -13,7 +13,7 @@ import com.espertech.esper.client.EventBean;
 import com.espertech.esper.client.UpdateListener;
 
 
-public class EventListener implements UpdateListener{
+public class EventListenerB implements UpdateListener{
 	
  public void update(EventBean[] newEvents,EventBean[] oldEvents)
  { 
@@ -21,7 +21,6 @@ public class EventListener implements UpdateListener{
   System.out.println("src :"+event1.get("src")+
                " proto :"+event1.get("proto")+
                " count :"+event1.get("count"));
-  
   MailThread mailthread = new MailThread(event1);
   mailthread.run();
  }
@@ -57,8 +56,7 @@ class MailThread extends Thread{
 				      InternetAddress to = new InternetAddress("tls948@naver.com");
 				      msg.setRecipient(Message.RecipientType.TO, to);
 				      // 이메일 제목
-				      msg.setSubject(date.format(dt).toString()+"port scan attempt Notify Mail", "UTF-8");
-				      
+				      msg.setSubject(date.format(dt).toString()+"Service Enumeration Notify Mail", "UTF-8");
 				      // 이메일 내용
 				      msg.setText(date.format(dt).toString()+'\n'+'\n'+'\n'+
 				    		       "src :"+mailevent.get("src")+'\n'+
@@ -75,19 +73,4 @@ class MailThread extends Thread{
 				  }
 				}
 	}
-}
-
-
- class MyAuthentication extends Authenticator {
-     PasswordAuthentication pa;
-     public MyAuthentication(){
-    	 String id = "notifymail.comsoshk@gmail.com";       // 구글 ID
-    	 String pw = "comsoshk";          // 구글 비밀번호
-    	 // ID와 비밀번호를 입력한다.
-    	 pa = new PasswordAuthentication(id, pw);
-     }
-	 // 시스템에서 사용하는 인증정보
-     public PasswordAuthentication getPasswordAuthentication() {
-    	 return pa;
-     }
 }

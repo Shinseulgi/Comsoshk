@@ -7,14 +7,21 @@ public class Main {
       Configuration config = new Configuration();
       config.addEventTypeAutoName("pack");
       EPServiceProvider epService= EPServiceProviderManager.getDefaultProvider(config);
-      String epl="select src,proto,dst,count from HackEvent.win:time(30 sec) where count>5";
+      String epl="select src,proto,dst,count from HackEvent.win:time(30 sec) where count>=5";
       EPStatement statement = epService.getEPAdministrator().createEPL(epl);
       EventListener listener = new EventListener();
       statement.addListener(listener);
       Runnable r1 = new ThreadA(epService);
       Thread t1= new Thread(r1);
       t1.start();
-
-
+      
+      EPServiceProvider epServiceB= EPServiceProviderManager.getDefaultProvider(config);
+      String eplB="select src,proto,dst,count from HackEventB.win:time(30 sec) where count>=5";
+      EPStatement statementB = epServiceB.getEPAdministrator().createEPL(eplB);
+      EventListenerB listenerB = new EventListenerB();
+      statementB.addListener(listenerB);
+      Runnable r2 = new ThreadB(epService);
+      Thread t2= new Thread(r2);
+      t2.start();
  }
 }

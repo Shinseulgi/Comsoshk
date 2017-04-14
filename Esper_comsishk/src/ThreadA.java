@@ -15,7 +15,7 @@ BufferedReader reader;
  {
   while(true){
    try {
-	   reader=new BufferedReader(new FileReader("/home/seulgi/resultFile"));
+	   reader=new BufferedReader(new FileReader("/home/seulgi/Project/result2.txt"));
 	   String line=null;
 	   while((line=reader.readLine())!=null){
 		  String src=line.substring(1,line.indexOf("/"));
