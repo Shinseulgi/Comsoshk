@@ -15,7 +15,7 @@ BufferedReader reader;
  {
   while(true){
    try {
-	   reader=new BufferedReader(new FileReader("/home/seulgi/Project/result2.txt"));
+	   reader=new BufferedReader(new FileReader("/home/seulgi/Project/result1.txt"));
 	   String line=null;
 	   while((line=reader.readLine())!=null){
 		  String src=line.substring(1,line.indexOf("/"));
@@ -26,10 +26,11 @@ BufferedReader reader;
 			  if(line.charAt(i)=='+')
 				  count++;
 		  }
+		  
 		  HackEvent event=new HackEvent(src,port,dst,count+1);
 		  epService.getEPRuntime().sendEvent(event);
 	   }
-    Thread.sleep(500);
+    Thread.sleep(10000);
    } catch (Exception e) {
     e.printStackTrace();
    }  
