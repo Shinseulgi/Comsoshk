@@ -22,25 +22,25 @@ BufferedReader reader;
 		   String port=line.substring(line.indexOf("/")+1,line.indexOf(","));
 		   String dst=line.substring(line.indexOf(",")+1,line.length()-1);
 		   int count=0;
-		  if(dst.contains("80+9999")){
+		  if(port.contains("80+9999")){
 			  count=1;
 		  }
-		  else if(dst.contains("135+9191")){
+		  else if(port.contains("135+9191")){
 			  count=2;
 		  }
-		  else if(dst.contains("445+4444")){
+		  else if(port.contains("445+4444")){
 			  count=3;
 		  }
-		  else if(dst.contains("389+31337")){
+		  else if(port.contains("389+31337")){
 			  count=4;
 		  }
-		  else if(dst.contains("135+7175")){
+		  else if(port.contains("135+7175")){
 			  count=5;
 		  }
-		  else if(dst.contains("23+2001")){
+		  else if(port.contains("23+2001")){
 			  count=6;
 		  }
-		  else if(dst.contains("21+19800")){
+		  else if(port.contains("21+19800")){
 			  count=7;
 		  }
 		  HackEventC event=new HackEventC(src,port,dst,count);

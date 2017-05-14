@@ -88,8 +88,7 @@ class MailThread extends Thread{
 				      msg.setText(date.format(dt).toString()+'\n'+'\n'+'\n'+
 				    		  "src :"+this.src1+'\n'+
 				                 " proto :"+this.proto1+'\n'+
-				                 " dst :"+this.dst1 +
-				                 " count : "+this.mailevent.get("count")
+				                 " dst :"+this.dst1 + "\n"
 				    		       , "UTF-8");
 				      // 이메일 헤더
 				      msg.setHeader("content-Type", "text/html");
