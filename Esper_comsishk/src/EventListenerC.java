@@ -1,20 +1,21 @@
 
+import javax.swing.table.DefaultTableModel;
+
 import com.espertech.esper.client.EventBean;
 import com.espertech.esper.client.UpdateListener;
 
 
 public class EventListenerC implements UpdateListener{
-public String EMail;
-	
-	public EventListenerC(String mail){
+	public String EMail;
+	public DefaultTableModel Tablemodel;
+	public EventListenerC(String mail,DefaultTableModel tablemodel){
 		this.EMail=mail;
+		this.Tablemodel=tablemodel;
 	}
  public void update(EventBean[] newEvents,EventBean[] oldEvents)
  { 
   EventBean event1= newEvents[0];
-  System.out.println("3 src :"+event1.get("src")+ 
-               " proto :"+event1.get("proto")+
-               " count :"+event1.get("count"));
+	this.Tablemodel.addRow(new String[]{"3",(String) event1.get("src"),(String) event1.get("dst"),(String) event1.get("proto")});
   int count4type=0;
   if((event1.get("count").toString()).contains("1")){
 	  count4type=3;
