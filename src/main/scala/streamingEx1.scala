@@ -3,30 +3,30 @@ import java.nio.charset.Charset
 import com.google.common.io.Files
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.broadcast.Broadcast
+import org.apache.spark.Accumulator
 import org.apache.spark.rdd.RDD
-import org.apache.spark.streaming.{Seconds, Minutes, StreamingContext, Time, State, StateSpec}
+import org.apache.spark.streaming.{Milliseconds, Seconds, Minutes, StreamingContext, Time, State, StateSpec}
 import org.apache.spark.util.IntParam
-import org.apache.spark.util.LongAccumulator
 import org.apache.spark.storage.StorageLevel
-
 
 object RecoverableNetworkWordCount {
   val protoMap = Map(
-	"80"	-> "9999",		//MS FrontPage Server Extension Buffer Overflow
-	"135"	-> "9191",		//MS Messenger Heap Overflow
-	"445"	-> "444",		//LSASS.DLL RPC Buffer Overflow
-	"389"	-> "31337",		//IPswitch IMAIL LDAP
-	"135"	-> "7175",		//Windows XP/2000 Return into Libc
-	"23"	-> "2001",		//Splaris /bin/login Remote Root Exploit
-	"21"	-> "19800"		//WFTPD STAT Command Remote Exploit
+	"80+9999"->"MS FrontPage Server Extension Buffer Overflow",
+	"135+9191"->"MS Messenger Heap Overflow",
+	"445+4444"->"LSASS.DLL RPC Buffer Overflow",
+	"389+31337"->"IPswitch IMAIL LDAP",
+	"23+2001"->"Splaris /bin/login Remote Root Exploit",
+	"21+19800"->"WFTPD STAT Command Remote Exploit",
+	"135+7175"->"Windows XP/2000 Return into Libc"
   )
+
   def trackStateFunc(batchTime: Time, key: String, value: Option[String], state: State[String]): Option[(String, String)] = {
-   var sum : String = new String()
-   if(state.getOption.getOrElse(0)==0){
-     sum = value.getOrElse("")
-   }
-   else if(state.get().contains(value.getOrElse(""))){
-     sum = state.getOption.getOrElse("")
+    var sum : String = new String()
+    if(state.getOption.getOrElse(0)==0){
+      sum = value.getOrElse("")
+    }
+    else if(state.get().contains(value.get)){
+      sum = state.getOption.getOrElse("")
     }
     else{ 
       sum = state.getOption.getOrElse("") + "+" + value.getOrElse("")
@@ -41,14 +41,13 @@ object RecoverableNetworkWordCount {
     println("Creating new context")
 
     val sparkConf = new SparkConf().setAppName("RecoverableNetworkWordCount").set("spark.storage.memoryFraction", "0.8")
-    val ssc = new StreamingContext(sparkConf, Seconds(10))
+    val ssc = new StreamingContext(sparkConf, Milliseconds(500))
     ssc.checkpoint(checkpointDirectory)
 
     ssc
   }
 
   def main(args: Array[String]) {
-
     if (args.length != 3) {
       System.err.println("Your arguments were " + args.mkString("[", ", ", "]"))
       System.err.println(
@@ -69,9 +68,10 @@ object RecoverableNetworkWordCount {
 
     val resultFile1 = new File("result1.txt")
     val resultFile2 = new File("result2.txt")
+    val resultFile3 = new File("result3.txt")
     if (resultFile1.exists()) resultFile1.delete()
     if (resultFile2.exists()) resultFile2.delete()
-
+    if (resultFile3.exists()) resultFile3.delete()
 
     val ssc = StreamingContext.getOrCreate(checkpointDirectory,
       () => createContext(ip, port.toInt, checkpointDirectory))
@@ -79,63 +79,58 @@ object RecoverableNetworkWordCount {
     val initialRDD : RDD[(String,String)] = ssc.sparkContext.parallelize(Seq())
     initialRDD.persist(StorageLevel.MEMORY_AND_DISK_SER)
 
-    //val protoMapBroad = ssc.sparkContext.broadcast(protoMap)
     val stateSpec = StateSpec.function(trackStateFunc _).initialState(initialRDD).numPartitions(2).timeout(Minutes(120))
 
     val logs = ssc.socketTextStream(ip, port.toInt, StorageLevel.MEMORY_AND_DISK_SER_2)
-    val log1 = logs.filter{case x => !x.contains("icmp")}
-    log1.persist(StorageLevel.MEMORY_ONLY)
-
-    //val protoCheck1 = log1.filter{case rdd => rdd.contains("/")}.map(rdd=>rdd.split("/")(0).split("=").last)
-
-    val log2 = log1.map{rdd => 
-      if(rdd.contains("/")) {
-        val protoRDD = rdd.split("/")(0).split("=").last
-        if(protoMap.contains(protoRDD)){
-          println("***Exist***")
-          
-        }
-        else
-          println("nonExist")
-        (rdd.split("=")(10).split(" ")(0)+"/"+rdd.split("=")(13).split(" ")(0),rdd.split("/")(0).split("=").last+"/"+rdd.split("/")(1).split(" ")(0))
-      }
-      else 
-        (rdd.split("=")(10).split(" ")(0)+"/"+rdd.split("=")(13).split(" ")(0),rdd.split("proto")(1).split("=")(1).split(" ")(0)+"/"+rdd.split("proto")(0).split("=").last.replace(" ",""))
-     }.transform(x=>x.distinct()).reduceByKey((x,y)=>x+"+"+y)
-
-/*val log2 = log1.map{rdd => 
-      if(rdd.contains("/")) {
-        val protoRDD = rdd.split("/")(0).split("=").last
-        if(protoMap.contains(protoRDD))
-          println("***"+protoRDD+"***")
-        (rdd.split("=")(10).split(" ")(0)+"/"+rdd.split("=")(13).split(" ")(0),rdd.split("/")(0).split("=").last+"/"+rdd.split("/")(1).split(" ")(0))
-      }
-      else 
-        (rdd.split("=")(10).split(" ")(0)+"/"+rdd.split("=")(13).split(" ")(0),rdd.split("proto")(1).split("=")(1).split(" ")(0)+"/"+rdd.split("proto")(0).split("=").last.replace(" ",""))
-     }.distinct().reduceByKey((x,y)=>x+"+"+y)*/
+    val initial_logs = logs.filter{case x => !x.contains("icmp")}
+    initial_logs.persist(StorageLevel.MEMORY_ONLY)
 
 
-    val wordCountStateStream1 = log2.mapWithState(stateSpec)
+    val windowLen_12 = 20
+    val slidingInterval_12 = 20
+    val window_12 = initial_logs.window(Seconds(windowLen_12),Seconds(slidingInterval_12))
+    val windowLen_3 = 1000
+    val slidingInterval_3 = 500
+    val window_3 = initial_logs.window(Milliseconds(windowLen_3),Milliseconds(slidingInterval_3))
+
+    val win_1 = window_12.map(x=>(x.split("=")(10).split(" ")(0)+"/"+x.split("=")(24).split(" ")(0),x.split("=")(13).split(" ")(0))).transform(rdd=>rdd.distinct()).reduceByKey((x,y) => x+"+"+y)
+    val wordCountStateStream1 = win_1.mapWithState(stateSpec)
     val stateSnapshotStream1 = wordCountStateStream1.stateSnapshots()  
     stateSnapshotStream1.foreachRDD { rdd =>
-      rdd.collect().foreach(println)
-      val str = rdd.collect().mkString("")
-      Files.append(str + "\n", resultFile1, Charset.defaultCharset())
+      Files.write("" , resultFile1, Charset.defaultCharset())
+      rdd.collect().foreach{ x=>
+        Files.append(x + "\n", resultFile1, Charset.defaultCharset())
+      }
     }
 
-
-    val log_ = log1.map(x=>(x.split("=")(10).split(" ")(0)+"/"+x.split("=")(24).split(" ")(0),x.split("=")(13).split(" ")(0))).transform(rdd=>rdd.distinct()).reduceByKey((x,y) => x+"+"+y)
-    val wordCountStateStream = log_.mapWithState(stateSpec)
-    //wordCountStateStream.print()
-    val stateSnapshotStream = wordCountStateStream.stateSnapshots()  
-    stateSnapshotStream.foreachRDD { rdd =>
-      rdd.collect().foreach(println)
-      val str = rdd.collect().mkString("")
-      Files.append(str + "\n", resultFile2, Charset.defaultCharset())
+    val win_2 = window_12.map{rdd => 
+      if(rdd.contains("/"))
+        (rdd.split("=")(10).split(" ")(0)+"/"+rdd.split("=")(13).split(" ")(0),rdd.split("/")(0).split("=").last+"/"+rdd.split("/")(1).split(" ")(0))
+      else
+        (rdd.split("=")(10).split(" ")(0)+"/"+rdd.split("=")(13).split(" ")(0),rdd.split("proto")(1).split("=")(1).split(" ")(0)+"/"+rdd.split("proto")(0).split("=").last.replace(" ",""))
+     }.transform(x=>x.distinct()).reduceByKey((x,y)=>x+"+"+y)
+    val wordCountStateStream2 = win_2.mapWithState(stateSpec)
+    val stateSnapshotStream2 = wordCountStateStream2.stateSnapshots()  
+    stateSnapshotStream2.foreachRDD { rdd =>
+      Files.write("" , resultFile2, Charset.defaultCharset())
+      rdd.collect().foreach{ x=>
+        Files.append(x + "\n", resultFile2, Charset.defaultCharset())
+      }
     }
+    
+    val win_3 = window_3.filter{case rdd => rdd.contains("/")}.map(rdd=>rdd.split("/")(0).split("=").last).reduce((proto1,proto2)=>proto1+"+"+proto2)
+    win_3.foreachRDD { rdd =>
+      rdd.collect().foreach{x=>
+        val hackingPattern = protoMap.get(x).getOrElse("")
+        println(hackingPattern)
+        if(hackingPattern!="")
+          Files.append(x + "\n", resultFile3, Charset.defaultCharset())
+      }
+    }
+
     ssc.start()
     ssc.awaitTermination()
-    log1.foreachRDD { rdd =>
+    initial_logs.foreachRDD { rdd =>
       rdd.unpersist()
     }
     initialRDD.unpersist()
