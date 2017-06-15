@@ -1,0 +1,372 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/seulgi/Project/arlarm/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.6
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+26 items
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$1.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$10.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$2.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$3.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$4.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$5.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$6.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$7.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$8.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$9.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$apply$1.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$1.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$2$$anonfun$apply$2.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$2.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$3$$anonfun$apply$3$$anonfun$11.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$3$$anonfun$apply$3.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$3.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$4.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$5.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$trackStateFunc$1.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$trackStateFunc$2.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$trackStateFunc$3.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$trackStateFunc$4.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$trackStateFunc$5.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$.class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount.class
+binary dependencies:
+6 items
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/.ivy2/cache/com.google.guava/guava/bundles/guava-14.0.1.jar
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-2.2.0.jar
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/.ivy2/cache/org.apache.spark/spark-streaming_2.11/jars/spark-streaming_2.11-2.1.0.jar
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /home/seulgi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+26 items
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$1
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$10
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$2
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$3
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$4
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$5
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$6
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$7
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$8
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$9
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$main$1
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$apply$1
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$main$2
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$main$2$$anonfun$apply$2
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$main$3
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$main$3$$anonfun$apply$3
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$main$3$$anonfun$apply$3$$anonfun$11
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$main$4
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$main$5
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$trackStateFunc$1
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$trackStateFunc$2
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$trackStateFunc$3
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$trackStateFunc$4
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$trackStateFunc$5
+used names:
+210 items
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> !=
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> &&
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> +
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> ->
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> <byname>
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> <init>
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> <repeated>
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> ==
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> A
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Accumulator
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Any
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> AnyRef
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Array
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> ArrayOps
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> ArrowAssoc
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> B
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Boolean
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Broadcast
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> CharSequence
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Charset
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Class
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> ClassTag
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Configuration
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> DStream
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Duration
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> File
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Files
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Function0
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Function1
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Function2
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Function4
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> IndexedSeq
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Int
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> IntParam
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> K
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> KeyType
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> List
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Long
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> MEMORY_AND_DISK_SER
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> MEMORY_AND_DISK_SER_2
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> MEMORY_ONLY
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Map
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> MapWithStateDStream
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> MappedType
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> MatchError
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Milliseconds
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Minutes
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Nothing
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Object
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Option
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Ordering
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> PairDStreamFunctions
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Predef
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> PrintStream
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RDD
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> ReceiverInputDStream
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Seconds
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Seq
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Some
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> SparkConf
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> SparkContext
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> State
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> StateSpec
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> StateType
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> StorageLevel
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> StreamingContext
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> String
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> StringOps
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> System
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> T
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> T1
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> T2
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> T3
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Time
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Tuple2
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Tuple3
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> U
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> Unit
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> V
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> ValueType
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> _$7
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> _1
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> _2
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> _3
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> any2stringadd
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> apache
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> append
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> apply
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> args
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> augmentString
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> awaitTermination
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> broadcast
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> charset
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> checkpoint
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> checkpointDirectory
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> collect
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> collection
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> com
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> common
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> contains
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> createContext
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> defaultCharset
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> delete
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> distinct
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> dstream
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> err
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> exists
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> exit
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> filter
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> foreach
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> foreachRDD
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> function
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> get
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> getOption
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> getOrCreate
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> getOrElse
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> google
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> hackingPattern
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> immutable
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> initialRDD
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> initialState
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> initial_logs
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> io
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> ip
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> isEmpty
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> java
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> key
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> lang
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> last
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> length
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> lengthCompare
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> logAll
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> logs
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> map
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> mapWithState
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> materializeClassTag
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> math
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> mkString
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> nio
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> numPartitions
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> org
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> output
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> package
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> parallelize
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> persist
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> port
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> println
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> proto1
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> proto2
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> protoMap
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> qual$1
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> qual$2
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> rdd
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> reduceByKey
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> refArrayOps
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> replace
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> resultFile1
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> resultFile2
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> resultFile3
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> scala
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> set
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> setAppName
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> slidingInterval_12
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> slidingInterval_3
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> socketTextStream
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> spark
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> sparkConf
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> sparkContext
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> split
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> ssc
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> start
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> state
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> stateSnapshotStream1
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> stateSnapshotStream2
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> stateSnapshots
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> stateSpec
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> storage
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> streaming
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> stripMargin
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> sum
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> timeout
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> toInt
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> toLong
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> toPairDStreamFunctions
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> trackStateFunc
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> transform
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> unapplySeq
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> unary_!
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> unchecked
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> unpersist
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> update
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> util
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> value
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> win3
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> win_1
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> win_2
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> window
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> windowLen_12
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> windowLen_3
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> window_12
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> window_3
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> wordCountStateStream1
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> wordCountStateStream2
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> write
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> x
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> x$2
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> x$3
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> x$4
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> x$5
+product stamps:
+26 items
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$1.class -> lastModified(1495269468000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$10.class -> lastModified(1495269468000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$2.class -> lastModified(1495269468000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$3.class -> lastModified(1495269468000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$4.class -> lastModified(1495269468000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$5.class -> lastModified(1495269468000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$6.class -> lastModified(1495269469000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$7.class -> lastModified(1495269469000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$8.class -> lastModified(1495269469000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$9.class -> lastModified(1495269469000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$apply$1.class -> lastModified(1495269469000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$1.class -> lastModified(1495269469000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$2$$anonfun$apply$2.class -> lastModified(1495269469000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$2.class -> lastModified(1495269469000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$3$$anonfun$apply$3$$anonfun$11.class -> lastModified(1495269470000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$3$$anonfun$apply$3.class -> lastModified(1495269470000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$3.class -> lastModified(1495269469000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$4.class -> lastModified(1495269470000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$5.class -> lastModified(1495269470000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$trackStateFunc$1.class -> lastModified(1495269470000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$trackStateFunc$2.class -> lastModified(1495269470000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$trackStateFunc$3.class -> lastModified(1495269470000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$trackStateFunc$4.class -> lastModified(1495269470000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$trackStateFunc$5.class -> lastModified(1495269470000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount$.class -> lastModified(1495269468000)
+/home/seulgi/Project/arlarm/target/scala-2.11/classes/RecoverableNetworkWordCount.class -> lastModified(1495269466000)
+source stamps:
+1 items
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> hash(1378d87d8efc546ca485b64738d31bfb48ecff2f)
+binary stamps:
+6 items
+/home/seulgi/.ivy2/cache/com.google.guava/guava/bundles/guava-14.0.1.jar -> lastModified(1363305439000)
+/home/seulgi/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-2.2.0.jar -> lastModified(1381127427000)
+/home/seulgi/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar -> lastModified(1481871925000)
+/home/seulgi/.ivy2/cache/org.apache.spark/spark-streaming_2.11/jars/spark-streaming_2.11-2.1.0.jar -> lastModified(1481871949000)
+/home/seulgi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar -> lastModified(1424912463000)
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> lastModified(1494039098000)
+class names:
+6 items
+/home/seulgi/.ivy2/cache/com.google.guava/guava/bundles/guava-14.0.1.jar -> com.google.common.io.Files
+/home/seulgi/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-2.2.0.jar -> org.apache.hadoop.conf.Configuration
+/home/seulgi/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar -> org.apache.spark.SparkContext$
+/home/seulgi/.ivy2/cache/org.apache.spark/spark-streaming_2.11/jars/spark-streaming_2.11-2.1.0.jar -> org.apache.spark.streaming.dstream.PairDStreamFunctions
+/home/seulgi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar -> scala.collection.Seq
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+1 items
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw7cJLjQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAYc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwbHIRkXQABm5vdGlmeXNxAH4ADNYFutB0AAhwcm90b01hcHNxAH4ADGYrHKJ0AAR3YWl0c3EAfgAMX426nXQADSRhc0luc3RhbmNlT2ZzcQB+AAyPgis1dAAGZXF1YWxzc3EAfgAMUqYIAXQADGFzSW5zdGFuY2VPZnNxAH4ADMBhdjZ0AAxzeW5jaHJvbml6ZWRzcQB+AAwmgt2ldAANJGlzSW5zdGFuY2VPZnNxAH4ADI3AFr10AARtYWluc3EAfgAMwuhOdXQACW5vdGlmeUFsbHNxAH4ADFaSliJ0AAxpc0luc3RhbmNlT2ZzcQB+AAyA8phMdAAOdHJhY2tTdGF0ZUZ1bmNzcQB+AAyHj3tQdAACPT1zcQB+AAzOLSqEdAAFY2xvbmVzcQB+AAyJOWJfdAAbUmVjb3ZlcmFibGVOZXR3b3JrV29yZENvdW50c3EAfgAMD6K6InQACHRvU3RyaW5nc3EAfgAM8CsanHQAAiE9c3EAfgAM++eKWHQACGdldENsYXNzc3EAfgAMXCp8bXQAAm5lc3EAfgAMdZEjjXQADWNyZWF0ZUNvbnRleHRzcQB+AAzet47HdAACZXFzcQB+AAwel1bVdAACIyNzcQB+AAzxAJFEdAAIZmluYWxpemVzcQB+AAy6neLSdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBHeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+ACt1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF5zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AR0wACWluaGVyaXRlZHEAfgBHTAAHcGFyZW50c3EAfgBHeHEAfgBjc3EAfgBedXEAfgBCAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBIcQB+AFF1cQB+AFIAAAAAc3EAfgBUAHEAfgAfdXEAfgBWAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGJ0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBic3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB+dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4Aa3hwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AWXQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AclsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AYnNxAH4AcXQABUFycmF5cQB+AHd1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AcXQABlN0cmluZ3NxAH4AdXNxAH4AeHVxAH4AewAAAANzcQB+AH10AARqYXZhc3EAfgB9dAAEbGFuZ3EAfgCCc3EAfgBedXEAfgBCAAAAAHNxAH4AXnVxAH4AlgAAAAJzcQB+AHF0AAZPYmplY3RxAH4AmnNxAH4AcXQAA0FueXEAfgB3dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVwk/2UtdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQANS9ob21lL3NldWxnaS9Qcm9qZWN0L2FybGFybS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUE3jYfY78VGykhbZHONMb+0js/y8=
+external apis:
+0 items
+source infos:
+1 items
+/home/seulgi/Project/arlarm/src/main/scala/streamingEx1.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXCT/ZS11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANS9ob21lL3NldWxnaS9Qcm9qZWN0L2FybGFybS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==

@@ -1,0 +1,1 @@
+		this.Tablemodel.addRow(new String[]{(String) event1.get("src"),(String) event1.get("dst"),(String) event1.get("proto")})
