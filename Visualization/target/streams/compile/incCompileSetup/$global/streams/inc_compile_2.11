@@ -1,0 +1,337 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/seulgi/Project/visuallization/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.6
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+21 items
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$1.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$10.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$11.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$2.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$3.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$4.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$5.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$6.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$7.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$8.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$9.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$12.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$13$$anonfun$apply$1.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$13.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$14.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$15$$anonfun$apply$2.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$15.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$1.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$2.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$.class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount.class
+binary dependencies:
+6 items
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/.ivy2/cache/com.google.guava/guava/bundles/guava-14.0.1.jar
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-2.2.0.jar
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/.ivy2/cache/org.apache.spark/spark-streaming_2.11/jars/spark-streaming_2.11-2.1.0.jar
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /home/seulgi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+21 items
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$1
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$10
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$11
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$2
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$3
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$4
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$5
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$6
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$7
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$8
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$9
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$main$1
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$12
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$13
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$13$$anonfun$apply$1
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$14
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$15
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$15$$anonfun$apply$2
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount$$anonfun$main$2
+used names:
+190 items
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> !=
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> %
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> &&
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> +
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> <byname>
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> <init>
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> <repeated>
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> ==
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> A
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Any
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> AnyRef
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Array
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> ArrayOps
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> B
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Boolean
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Broadcast
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> CharSequence
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Charset
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Class
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> ClassTag
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Configuration
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> DStream
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Duration
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> File
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Files
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Function0
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Function1
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Function2
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> IndexedSeq
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Int
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> IntParam
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> K
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> List
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Long
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> LongAccumulator
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> MEMORY_AND_DISK_SER
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> MEMORY_ONLY
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> MatchError
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Nothing
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Object
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Option
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> OrderedRDDFunctions
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Ordering
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> PairDStreamFunctions
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> PairRDDFunctions
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Predef
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> PrintStream
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RDD
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> ReceiverInputDStream
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> RecoverableNetworkWordCount
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Seconds
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Seq
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> SparkConf
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> SparkContext
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> StorageLevel
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> StreamingContext
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> String
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> StringOps
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> System
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> T
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> T1
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> T2
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> T3
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Time
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> TraversableOnce
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Tuple2
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Tuple3
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> U
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> Unit
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> V
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> W
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> _$7
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> _1
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> _2
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> _3
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> apache
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> append
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> apply
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> args
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> augmentString
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> awaitTermination
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> broadcast
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> charset
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> checkpoint
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> checkpointDirectory
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> collect
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> com
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> common
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> contains
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> createContext
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> dangerFile
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> dangerStr
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> defaultCharset
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> delete
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> dstream
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> err
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> exists
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> exit
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> filter
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> flatMap
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> foreachRDD
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> get
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> getOrCreate
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> getOrElse
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> google
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> immutable
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> io
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> ip
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> isEmpty
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> java
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> lang
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> leftOuterJoin
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> length
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> lengthCompare
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> log
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> log1
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> logAll
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> logIdConvert
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> logOtherConvert
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> log_IdFile
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> log_IdStr
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> logs
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> map
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> materializeClassTag
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> math
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> mkString
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> ne
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> nio
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> org
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> output
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> package
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> parallelize
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> persist
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> port
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> priFile
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> priStr
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> println
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> protoFile
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> protoStr
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> qual$1
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> qual$2
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> rdd
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> rddToOrderedRDDFunctions
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> rddToPairRDDFunctions
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> reduceByKey
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> refArrayOps
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> replace
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> result
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> resultToken
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> scala
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> serviceFile
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> serviceStr
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> set
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> setAppName
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> slice
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> socketTextStream
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> sortByKey
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> spark
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> sparkConf
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> sparkContext
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> split
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> ssc
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> start
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> statusFile
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> statusStr
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> storage
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> str
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> streaming
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> stripMargin
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> subTypeFile
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> subTypeStr
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> toInt
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> toPairDStreamFunctions
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> toString
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> typeFile
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> typeStr
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> unapplySeq
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> unary_!
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> unchecked
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> union
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> unionLog
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> unpersist
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> util
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> x
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> x$2
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> x$3
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> x$4
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> x$5
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> y
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> ||
+product stamps:
+21 items
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$1.class -> lastModified(1495268826000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$10.class -> lastModified(1495268826000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$11.class -> lastModified(1495268827000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$2.class -> lastModified(1495268827000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$3.class -> lastModified(1495268827000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$4.class -> lastModified(1495268827000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$5.class -> lastModified(1495268827000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$6.class -> lastModified(1495268827000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$7.class -> lastModified(1495268827000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$8.class -> lastModified(1495268828000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$9.class -> lastModified(1495268828000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$12.class -> lastModified(1495268828000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$13$$anonfun$apply$1.class -> lastModified(1495268829000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$13.class -> lastModified(1495268829000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$14.class -> lastModified(1495268829000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$15$$anonfun$apply$2.class -> lastModified(1495268829000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$1$$anonfun$15.class -> lastModified(1495268829000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$1.class -> lastModified(1495268828000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$$anonfun$main$2.class -> lastModified(1495268829000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount$.class -> lastModified(1495268826000)
+/home/seulgi/Project/visuallization/target/scala-2.11/classes/RecoverableNetworkWordCount.class -> lastModified(1495268825000)
+source stamps:
+1 items
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> hash(1d41c9c1389359212b3fea0b4a1eff6cde4b7847)
+binary stamps:
+6 items
+/home/seulgi/.ivy2/cache/com.google.guava/guava/bundles/guava-14.0.1.jar -> lastModified(1363305439000)
+/home/seulgi/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-2.2.0.jar -> lastModified(1381127427000)
+/home/seulgi/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar -> lastModified(1481871925000)
+/home/seulgi/.ivy2/cache/org.apache.spark/spark-streaming_2.11/jars/spark-streaming_2.11-2.1.0.jar -> lastModified(1481871949000)
+/home/seulgi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar -> lastModified(1424912463000)
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> lastModified(1494039098000)
+class names:
+6 items
+/home/seulgi/.ivy2/cache/com.google.guava/guava/bundles/guava-14.0.1.jar -> com.google.common.io.Files
+/home/seulgi/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-2.2.0.jar -> org.apache.hadoop.conf.Configuration
+/home/seulgi/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar -> org.apache.spark.rdd.RDD$
+/home/seulgi/.ivy2/cache/org.apache.spark/spark-streaming_2.11/jars/spark-streaming_2.11-2.1.0.jar -> org.apache.spark.streaming.Seconds$
+/home/seulgi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar -> scala.reflect.package$
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+1 items
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwdJEKVAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwbHIRkXQABm5vdGlmeXNxAH4ADGYrHKJ0AAR3YWl0c3EAfgAMX426nXQADSRhc0luc3RhbmNlT2ZzcQB+AAyPgis1dAAGZXF1YWxzc3EAfgAMUqYIAXQADGFzSW5zdGFuY2VPZnNxAH4ADMBhdjZ0AAxzeW5jaHJvbml6ZWRzcQB+AAwmgt2ldAANJGlzSW5zdGFuY2VPZnNxAH4ADI3AFr10AARtYWluc3EAfgAMwuhOdXQACW5vdGlmeUFsbHNxAH4ADFaSliJ0AAxpc0luc3RhbmNlT2ZzcQB+AAyHj3tQdAACPT1zcQB+AAzOLSqEdAAFY2xvbmVzcQB+AAyJOWJfdAAbUmVjb3ZlcmFibGVOZXR3b3JrV29yZENvdW50c3EAfgAMD6K6InQACHRvU3RyaW5nc3EAfgAM8CsanHQAAiE9c3EAfgAM++eKWHQACGdldENsYXNzc3EAfgAMXCp8bXQAAm5lc3EAfgAMdZEjjXQADWNyZWF0ZUNvbnRleHRzcQB+AAzet47HdAACZXFzcQB+AAwel1bVdAACIyNzcQB+AAzxAJFEdAAIZmluYWxpemVzcQB+AAy6neLSdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBDeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+ACd1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFpzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQ0wACWluaGVyaXRlZHEAfgBDTAAHcGFyZW50c3EAfgBDeHEAfgBfc3EAfgBadXEAfgA+AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBEcQB+AE11cQB+AE4AAAAAc3EAfgBQAHEAfgAddXEAfgBSAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AF50AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBec3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB6dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AZ3hwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AVXQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AblsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AXnNxAH4AbXQABUFycmF5cQB+AHN1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AbXQABlN0cmluZ3NxAH4AcXNxAH4AdHVxAH4AdwAAAANzcQB+AHl0AARqYXZhc3EAfgB5dAAEbGFuZ3EAfgB+c3EAfgBadXEAfgA+AAAAAHNxAH4AWnVxAH4AkgAAAAJzcQB+AG10AAZPYmplY3RxAH4AlnNxAH4AbXQAA0FueXEAfgBzdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVwk9dKjdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAPS9ob21lL3NldWxnaS9Qcm9qZWN0L3Zpc3VhbGxpemF0aW9uL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQdQcnBOJNZISs/6gtKHv9s3kt4Rw==
+external apis:
+0 items
+source infos:
+1 items
+/home/seulgi/Project/visuallization/src/main/scala/streamingEx1.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXCT10qN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPS9ob21lL3NldWxnaS9Qcm9qZWN0L3Zpc3VhbGxpemF0aW9uL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
